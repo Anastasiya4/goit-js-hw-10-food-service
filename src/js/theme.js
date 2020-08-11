@@ -34,7 +34,7 @@ function localStorageChecker(){
     if(colorTheme){
         body.classList.add(colorTheme);
     if (colorTheme === Theme.DARK) {
-        input.checked = true;
+        checkbox.checked = true;
       } else {
         ('');
       }
